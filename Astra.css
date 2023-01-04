@@ -18,6 +18,7 @@ h6 {
   color: white !important;
   text-align: center;
   padding: 10px;
+  margin: 10px 0px;
   border-radius: 10px;
   background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
 
@@ -133,7 +134,10 @@ a {
   color: black !important;
 }
 
-
+#comments .submit,
+.search .search-submit {
+  border-radius: 10px;
+}
 
 
 
