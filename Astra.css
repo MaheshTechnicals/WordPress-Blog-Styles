@@ -127,12 +127,6 @@ h6 {
   border-radius: 10px;
 }
 
-.secondary a *,
-.site-footer a *,
-.site-header a *,
-a {
-  color: black !important;
-}
 
 #comments .submit,
 .search .search-submit {
