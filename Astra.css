@@ -1,0 +1,120 @@
+a.ast-button {
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+
+.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+
+}
+
+.entry-content h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white !important;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+
+}
+
+.ast-footer-copyright {
+  color: white !important;
+}
+
+#secondary .wp-block-search__button,
+#submit {
+  color: white !important;
+  border-radius: 10px;
+  border: none;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+
+.widget_block h2 {
+  color: white !important;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+.post-thumb-img-content img {
+  border-radius: 10px;
+  box-shadow: rgba(23, 43, 99, 0.2) 0 7px 28px !important;
+}
+
+
+#secondary .wp-block-search__input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(135deg, #89efff 0, #5fd9fe 25%, #0cc1ed 50%, #00a9dc 75%, #0094ce 100%);
+}
+
+.blog .entry-title,
+.blog .entry-title a,
+.archive .entry-title,
+.archive .entry-title a,
+.search .entry-title,
+.search .entry-title a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.ast-search-icon .ast-icon {
+  z-index: 4;
+  padding: 5px 10px;
+  color: white !important;
+}
+
+
+.site-title,
+.site-title a {
+  font-size: 25px;
+  color: white !important;
+}
+
+
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default {
+  color: white !important;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+.ast-mobile-header-wrap .ast-primary-header-bar,
+.ast-primary-header-bar .site-primary-header-wrap {
+  min-height: 60px;
+  color: white;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+
+
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+  width: 20px;
+  height: 20px;
+  fill: #fafafa !important;
+}
+
+
+.ast-header-break-point .main-navigation .stack-on-mobile li {
+  color: white !important;
+  color: white !important;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+
+.site-header .menu-text {
+  color: white;
+}
