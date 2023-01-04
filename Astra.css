@@ -121,4 +121,35 @@ h6 {
   color: white;
 }
 
+
+#rpwwt-recent-posts-widget-with-thumbnails-4 img {
+  border-radius: 10px;
+}
+
+.secondary a *,
+.site-footer a *,
+.site-header a *,
+a {
+  color: black !important;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 544px) {
+
+  .ast-single-post .entry-title,
+  .page-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
 /* Credits : https://maheshtechnicals.com */
