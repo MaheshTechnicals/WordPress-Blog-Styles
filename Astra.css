@@ -33,6 +33,7 @@ h6 {
   color: white !important;
   border-radius: 10px;
   border: none;
+  padding: 10px 20px !important;
   background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
 }
 
@@ -55,7 +56,9 @@ h6 {
   outline: none;
   border: none;
   border-radius: 10px;
-  background-image: linear-gradient(135deg, #89efff 0, #5fd9fe 25%, #0cc1ed 50%, #00a9dc 75%, #0094ce 100%);
+  padding: 5px 20px !important;
+  color: white !important;
+  background: black !important;
 }
 
 .blog .entry-title,
