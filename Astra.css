@@ -97,7 +97,8 @@ h6 {
 
 .ast-mobile-header-wrap .ast-primary-header-bar,
 .ast-primary-header-bar .site-primary-header-wrap {
-  min-height: 60px;
+  min-height: auto;
+  padding: 10px;
   color: white;
   background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
 }
@@ -132,6 +133,8 @@ h6 {
 .search .search-submit {
   border-radius: 10px;
 }
+
+
 
 
 
