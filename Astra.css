@@ -138,6 +138,44 @@ h6 {
 }
 
 
+.ast-pagination .page-numbers.current,
+.ast-pagination .page-numbers:focus,
+.ast-pagination .page-numbers:hover {
+  color: #ffffff;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%) !important;
+}
+
+
+.ast-pagination-circle .ast-pagination .next.page-numbers,
+.ast-pagination-circle .ast-pagination .prev.page-numbers {
+  border-radius: 30px;
+  color: white;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+
+.ast-desktop .ast-mega-menu-enabled .ast-builder-menu-1 div:not(.astra-full-megamenu-wrapper) .sub-menu,
+.ast-builder-menu-1 .inline-on-mobile .sub-menu,
+.ast-desktop .ast-builder-menu-1 .astra-full-megamenu-wrapper,
+.ast-desktop .ast-builder-menu-1 .menu-item .sub-menu {
+  color: white;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+
+.ast-related-posts-title {
+  color: white !important;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+
+}
+
+
+.ast-related-post-content .entry-header .ast-related-post-title,
+.ast-related-post-content .entry-header .ast-related-post-title a {
+  color: white !important;
+}
 
 
 
