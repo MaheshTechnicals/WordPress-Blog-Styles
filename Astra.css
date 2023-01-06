@@ -178,6 +178,12 @@ h6 {
 }
 
 
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
 
 @media (max-width: 544px) {
 
