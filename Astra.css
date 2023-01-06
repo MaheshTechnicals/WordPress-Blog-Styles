@@ -189,6 +189,40 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 }
 
 
+section.ast-comment-content.comment {
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
+
+span.ast-reply-link {
+  padding: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(225deg, #f69940 0, #fb8e42 8.33%, #ff8144 16.67%, #ff7348 25%, #ff634d 33.33%, #ff5052 41.67%, #ff3858 50%, #fb145f 58.33%, #f50069 66.67%, #ee0073 75%, #e6007f 83.33%, #db008d 91.67%, #ce009b 100%);
+}
+
+span.ast-reply-link a {
+  color: white !important;
+}
+
+
+.ast-comment-info {
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-image: linear-gradient(225deg, #f69940 0, #fb8e42 8.33%, #ff8144 16.67%, #ff7348 25%, #ff634d 33.33%, #ff5052 41.67%, #ff3858 50%, #fb145f 58.33%, #f50069 66.67%, #ee0073 75%, #e6007f 83.33%, #db008d 91.67%, #ce009b 100%);
+}
+
+
+.ast-comment-info a {
+  color: white !important;
+}
+
+
+
+
 @media (max-width: 544px) {
 
   .ast-single-post .entry-title,
