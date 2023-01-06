@@ -221,6 +221,25 @@ span.ast-reply-link a {
 }
 
 
+b.fn {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-image: radial-gradient(circle at 50% -3.03%, #918ff2 0, #727eec 25%, #486ee5 50%, #005fde 75%, #0052d8 100%);
+
+}
+
+.ast-comment-time {
+  margin-top: 10px;
+}
+
+
+span.ast-icon.icon-arrow {
+  color: white !important;
+}
+
+
+
 
 
 @media (max-width: 544px) {
