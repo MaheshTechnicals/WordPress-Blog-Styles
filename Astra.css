@@ -142,6 +142,7 @@ h6 {
 .ast-pagination .page-numbers:focus,
 .ast-pagination .page-numbers:hover {
   color: #ffffff;
+  border-radius: 50%;
   background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%) !important;
 }
 
