@@ -1,10 +1,10 @@
-let subscount = document.querySelector("#subscount")
-const user = "UCnaXfsmRmrdc5IprzOok43Q"
-const api = `AIzaSyAKJEP4Q19B7E0To3BwItSNDhYVooYf6Fo`
-
-
-
 getsubs = () => {
+
+  let subscount = document.querySelector("#subscount")
+  const user = "UCnaXfsmRmrdc5IprzOok43Q"
+  const api = `AIzaSyAKJEP4Q19B7E0To3BwItSNDhYVooYf6Fo`
+
+
 
   fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${user}&key=${api}`)
     .then((res) => {
@@ -12,9 +12,9 @@ getsubs = () => {
     })
 
     .then((data) => {
-     let subs =data.items[0].statistics.subscriberCount
+      let subs = data.items[0].statistics.subscriberCount
 
-  subscount.innerText =subs
+      subscount.innerText = subs
     })
 
     .catch((error) => {
@@ -25,3 +25,9 @@ getsubs = () => {
 
 
 getsubs()
+
+
+setInterval(() => {
+  getsubs()
+
+}, 10000)
