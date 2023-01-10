@@ -263,6 +263,15 @@ span.ast-icon.icon-arrow {
 }
 
 
+.ast-header-search .ast-search-menu-icon.ast-dropdown-active .search-field {
+  color: white;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at 87.5% 12.5%, #f2a140 0, #f89740 7.14%, #fc8b42 14.29%, #ff7f45 21.43%, #ff7149 28.57%, #ff614d 35.71%, #ff4f52 42.86%, #ff3858 50%, #fb165f 57.14%, #f60068 64.29%, #ef0072 71.43%, #e7007d 78.57%, #dd008a 85.71%, #d10097 92.86%, #c300a5 100%);
+}
+
+
+
+
 
 @media (max-width: 544px) {
 
