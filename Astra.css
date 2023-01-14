@@ -270,7 +270,19 @@ span.ast-icon.icon-arrow {
 }
 
 
+.entry-content p {
+  font-size: 18px;
+}
 
+.su-button-style-soft span {
+  background-image: radial-gradient(circle at 87.5% 12.5%, #ff6b62 0, #ff555e 25%, #ff3858 50%, #f10053 75%, #e50052 100%);
+}
+
+
+.entry-content img {
+  vertical-align: middle;
+  margin: 20px 0px;
+}
 
 
 @media (max-width: 544px) {
