@@ -277,8 +277,9 @@ span.ast-icon.icon-arrow {
 }
 
 .entry-content img {
-  vertical-align: middle;
-  margin: 20px 0px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
