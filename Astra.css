@@ -282,6 +282,11 @@ span.ast-icon.icon-arrow {
   margin-bottom: 20px;
 }
 
+.su-table table th {
+  color: white !important;
+  background: black !important;
+}
+
 
 @media (max-width: 544px) {
 
