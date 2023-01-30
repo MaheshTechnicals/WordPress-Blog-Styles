@@ -76,6 +76,8 @@ h6 {
 
 .entry-title {
   margin-top: 30px;
+  color: #7c53f7 !important;
+  font-weight: bold;
 }
 
 
@@ -282,12 +284,18 @@ span.ast-icon.icon-arrow {
   margin-bottom: 20px;
 }
 
-.su-table table th {
+
+th {
   background: black !important;
   color: white !important;
 
 }
 
+.entry-meta,
+.entry-meta * {
+  font-weight: bold;
+  color: #990073 !important;
+}
 
 @media (max-width: 544px) {
 
