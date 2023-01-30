@@ -283,8 +283,9 @@ span.ast-icon.icon-arrow {
 }
 
 .su-table table th {
-  color: white !important;
   background: black !important;
+  color: white !important;
+
 }
 
 
@@ -296,6 +297,12 @@ span.ast-icon.icon-arrow {
     text-align: center;
     margin-top: 20px;
   }
+
+  .site-title,
+  .site-title a {
+    font-size: 20px;
+  }
+
 }
 
 /* Credits : https://maheshtechnicals.com */
