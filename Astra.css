@@ -285,11 +285,12 @@ span.ast-icon.icon-arrow {
 }
 
 
-th {
-  background: black !important;
+.su-table table th {
   color: white !important;
-
+  background: black !important;
 }
+
+
 
 .entry-meta,
 .entry-meta * {
