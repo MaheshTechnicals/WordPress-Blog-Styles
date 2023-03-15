@@ -1,8 +1,8 @@
 /* Code created by Mahesh Technicals*/
 
-:root{
-  --main:radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
-} 
+:root {
+  --main: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+}
 
 a.ast-button {
   color: white !important;
