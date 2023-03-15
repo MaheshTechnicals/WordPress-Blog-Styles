@@ -1,13 +1,17 @@
 /* Code created by Mahesh Technicals*/
 
+:root{
+  --main:radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+} 
+
 a.ast-button {
   color: white !important;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
 .site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 
 }
 
@@ -21,7 +25,7 @@ h6 {
   padding: 10px;
   margin: 10px 0px;
   border-radius: 10px;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 
 }
 
@@ -35,7 +39,7 @@ h6 {
   border-radius: 10px;
   border: none;
   padding: 10px 20px !important;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
@@ -44,7 +48,7 @@ h6 {
   text-align: center;
   border-radius: 10px;
   padding: 10px;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 .post-thumb-img-content img {
@@ -100,7 +104,7 @@ h6 {
 
 .ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default {
   color: white !important;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 .ast-mobile-header-wrap .ast-primary-header-bar,
@@ -108,7 +112,7 @@ h6 {
   min-height: auto;
   padding: 10px;
   color: white;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
@@ -123,7 +127,7 @@ h6 {
 .ast-header-break-point .main-navigation .stack-on-mobile li {
   color: white !important;
   color: white !important;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
@@ -156,7 +160,7 @@ h6 {
 .ast-pagination-circle .ast-pagination .prev.page-numbers {
   border-radius: 30px;
   color: white;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
@@ -165,7 +169,7 @@ h6 {
 .ast-desktop .ast-builder-menu-1 .astra-full-megamenu-wrapper,
 .ast-desktop .ast-builder-menu-1 .menu-item .sub-menu {
   color: white;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
@@ -173,7 +177,7 @@ h6 {
   color: white !important;
   padding: 10px;
   border-radius: 10px;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 
 }
 
@@ -187,7 +191,7 @@ h6 {
 input.wpcf7-form-control.has-spinner.wpcf7-submit {
   padding: 10px 20px;
   border-radius: 10px;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 #url {
@@ -199,7 +203,7 @@ section.ast-comment-content.comment {
   padding: 10px;
   color: white;
   border-radius: 10px;
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 span.ast-reply-link {
@@ -264,7 +268,7 @@ span.ast-icon.icon-arrow {
 
 
 #ast-scroll-top {
-  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%);
+  background-image: var(--main);
 }
 
 
