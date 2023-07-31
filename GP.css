@@ -195,6 +195,13 @@ nav-links a:hover {
 
 
 
+/* UL LI tags */
+.entry-content ul li:before {
+  color: purple;
+}
+
+
+
 
 @media (max-width: 544px) {
 
