@@ -1,0 +1,322 @@
+/* Code created by Mahesh Technicals*/
+
+:root {
+  --main: linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+}
+
+a.ast-button {
+  color: white !important;
+  background-image: var(--main);
+}
+
+
+.site-below-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full.ast-builder-grid-row-mobile-full.ast-footer-row-stack.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+  background-image: var(--main);
+
+}
+
+.entry-content h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white !important;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  background-image: var(--main);
+
+}
+
+.ast-footer-copyright {
+  color: white !important;
+}
+
+#secondary .wp-block-search__button,
+#submit {
+  color: white !important;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px !important;
+  background-image: var(--main);
+}
+
+
+.widget_block h2 {
+  color: white !important;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: var(--main);
+}
+
+.post-thumb-img-content img {
+  border-radius: 10px;
+  box-shadow: rgba(23, 43, 99, 0.2) 0 7px 28px !important;
+}
+
+
+#secondary .wp-block-search__input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 20px !important;
+  color: white !important;
+  background: black !important;
+}
+
+.blog .entry-title,
+.blog .entry-title a,
+.archive .entry-title,
+.archive .entry-title a,
+.search .entry-title,
+.search .entry-title a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+
+.entry-title {
+  margin-top: 30px;
+  color: #7c53f7 !important;
+  font-weight: bold;
+}
+
+
+
+
+.ast-search-icon .ast-icon {
+  z-index: 4;
+  padding: 5px 10px;
+  color: white !important;
+}
+
+
+.site-title,
+.site-title a {
+  font-size: 25px;
+  color: white !important;
+}
+
+
+.ast-primary-header-bar.ast-primary-header.main-header-bar.site-primary-header-wrap.site-header-focus-item.ast-builder-grid-row-layout-default.ast-builder-grid-row-tablet-layout-default.ast-builder-grid-row-mobile-layout-default {
+  color: white !important;
+  background-image: var(--main);
+}
+
+.ast-mobile-header-wrap .ast-primary-header-bar,
+.ast-primary-header-bar .site-primary-header-wrap {
+  min-height: auto;
+  padding: 10px;
+  color: white;
+  background-image: var(--main);
+}
+
+
+
+[data-section="section-header-mobile-trigger"] .ast-button-wrap .mobile-menu-toggle-icon .ast-mobile-svg {
+  width: 20px;
+  height: 20px;
+  fill: #fafafa !important;
+}
+
+
+.ast-header-break-point .main-navigation .stack-on-mobile li {
+  color: white !important;
+  color: white !important;
+  background-image: var(--main);
+}
+
+
+.site-header .menu-text {
+  color: white;
+}
+
+
+#rpwwt-recent-posts-widget-with-thumbnails-4 img {
+  border-radius: 10px;
+}
+
+
+#comments .submit,
+.search .search-submit {
+  border-radius: 10px;
+}
+
+
+.ast-pagination .page-numbers.current,
+.ast-pagination .page-numbers:focus,
+.ast-pagination .page-numbers:hover {
+  color: #ffffff;
+  border-radius: 50%;
+  background-image: radial-gradient(circle at 100% 0%, #a863ff 0, #7c53f7 25%, #4d42d4 50%, #0931b1 75%, #002291 100%) !important;
+}
+
+
+.ast-pagination-circle .ast-pagination .next.page-numbers,
+.ast-pagination-circle .ast-pagination .prev.page-numbers {
+  border-radius: 30px;
+  color: white;
+  background-image: var(--main);
+}
+
+
+.ast-desktop .ast-mega-menu-enabled .ast-builder-menu-1 div:not(.astra-full-megamenu-wrapper) .sub-menu,
+.ast-builder-menu-1 .inline-on-mobile .sub-menu,
+.ast-desktop .ast-builder-menu-1 .astra-full-megamenu-wrapper,
+.ast-desktop .ast-builder-menu-1 .menu-item .sub-menu {
+  color: white;
+  background-image: var(--main);
+}
+
+
+.ast-related-posts-title {
+  color: white !important;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: var(--main);
+
+}
+
+
+.ast-related-post-content .entry-header .ast-related-post-title,
+.ast-related-post-content .entry-header .ast-related-post-title a {
+  color: white !important;
+}
+
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-image: var(--main);
+}
+
+#url {
+  display: none !important;
+}
+
+
+section.ast-comment-content.comment {
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  background-image: var(--main);
+}
+
+span.ast-reply-link {
+  padding: 5px;
+  border-radius: 5px;
+  background-image: linear-gradient(225deg, #f69940 0, #fb8e42 8.33%, #ff8144 16.67%, #ff7348 25%, #ff634d 33.33%, #ff5052 41.67%, #ff3858 50%, #fb145f 58.33%, #f50069 66.67%, #ee0073 75%, #e6007f 83.33%, #db008d 91.67%, #ce009b 100%);
+}
+
+span.ast-reply-link a {
+  color: white !important;
+}
+
+
+.ast-comment-info {
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-image: linear-gradient(225deg, #f69940 0, #fb8e42 8.33%, #ff8144 16.67%, #ff7348 25%, #ff634d 33.33%, #ff5052 41.67%, #ff3858 50%, #fb145f 58.33%, #f50069 66.67%, #ee0073 75%, #e6007f 83.33%, #db008d 91.67%, #ce009b 100%);
+}
+
+
+.ast-comment-info a {
+  color: white !important;
+}
+
+
+b.fn {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  background-image: radial-gradient(circle at 50% -3.03%, #918ff2 0, #727eec 25%, #486ee5 50%, #005fde 75%, #0052d8 100%);
+
+}
+
+.ast-comment-time {
+  margin-top: 10px;
+}
+
+
+span.ast-icon.icon-arrow {
+  color: white !important;
+}
+
+
+.entry-content ul li:before {
+  font-family: FontAwesome;
+  content: "\f140";
+  margin-left: -1.5em;
+  padding-right: 1em;
+  color: #4E42D4;
+}
+
+
+.widget_categories ul li::before {
+  font-family: FontAwesome;
+  content: "\f039";
+  padding-right: 1em;
+  color: #4E42D4;
+  font-size: 18px;
+}
+
+
+#ast-scroll-top {
+  background-image: var(--main);
+}
+
+
+.ast-header-search .ast-search-menu-icon.ast-dropdown-active .search-field {
+  color: white;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at 87.5% 12.5%, #f2a140 0, #f89740 7.14%, #fc8b42 14.29%, #ff7f45 21.43%, #ff7149 28.57%, #ff614d 35.71%, #ff4f52 42.86%, #ff3858 50%, #fb165f 57.14%, #f60068 64.29%, #ef0072 71.43%, #e7007d 78.57%, #dd008a 85.71%, #d10097 92.86%, #c300a5 100%);
+}
+
+
+.entry-content p {
+  font-size: 18px;
+}
+
+.entry-content img {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.su-table table th {
+  color: white !important;
+  background: black !important;
+}
+
+
+
+.entry-meta,
+.entry-meta * {
+  font-weight: bold;
+  color: #990073 !important;
+}
+
+@media (max-width: 544px) {
+
+  .ast-single-post .entry-title,
+  .page-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .site-title,
+  .site-title a {
+    font-size: 20px;
+  }
+
+}
+
+/* Credits : https://maheshtechnicals.com */
