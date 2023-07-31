@@ -189,6 +189,9 @@ nav-links a:hover {
 }
 
 
+.widget-area .widget {
+  padding: 10px;
+}
 
 
 
@@ -206,6 +209,11 @@ nav-links a:hover {
   .site-title a {
     font-size: 20px;
   }
+
+  .widget_block h2 {
+    font-size: 20px;
+  }
+
 
 }
 
