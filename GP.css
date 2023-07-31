@@ -200,6 +200,11 @@ nav-links a:hover {
   color: purple;
 }
 
+/* Recent posts with thumbnail style */
+
+.rpwwt-widget ul li img {
+  border-radius: 5px;
+}
 
 
 
@@ -223,5 +228,23 @@ nav-links a:hover {
 
 
 }
+
+
+
+@media (max-width: 768px) {
+
+
+  .separate-containers .inside-article,
+  .separate-containers .comments-area,
+  .separate-containers .page-header,
+  .separate-containers .paging-navigation,
+  .one-container .site-content,
+  .inside-page-header {
+    padding: 10px;
+  }
+
+}
+
+
 
 /* Credits : https://maheshtechnicals.com */
