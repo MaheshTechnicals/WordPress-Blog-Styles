@@ -155,6 +155,7 @@ input.wpcf7-form-control.has-spinner.wpcf7-submit {
 .entry-meta,
 .entry-meta * {
   font-weight: bold;
+  text-align: center;
   color: #990073 !important;
 }
 
