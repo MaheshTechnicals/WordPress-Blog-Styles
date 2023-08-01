@@ -245,6 +245,23 @@ nav-links a:hover {
 
 }
 
+/* Sticky Sidebar*/
 
+@media (min-width: 769px) {
+  .site-content {
+    display: flex;
+  }
+
+  .inside-right-sidebar {
+    height: 100%;
+  }
+
+  .inside-right-sidebar aside:last-child {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+    /*Adjust position */
+  }
+}
 
 /* Credits : https://maheshtechnicals.com */
