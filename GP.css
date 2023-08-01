@@ -85,7 +85,7 @@ h6 {
 
 .entry-title {
   margin-top: 30px;
-  color: #7c53f7 !important;
+  color: purple !important;
   font-weight: bold;
 }
 
@@ -206,7 +206,103 @@ nav-links a:hover {
   border-radius: 5px;
 }
 
+/* comment-body */
+.comment-body {
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: radial-gradient(1294px at -15.5% 23.8%, rgb(255, 206, 149) 0%, rgb(247, 92, 92) 44.9%, rgba(108, 0, 96, 0.97) 93.8%);
+}
 
+
+/* comment author name */
+.comment-meta {
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.comment-meta time {
+  color: white !important;
+}
+
+/* comment Author profile */
+
+.comment-meta .avatar {
+  border: 2px solid purple;
+}
+
+/* comment a tags */
+.comment-content a {
+  word-wrap: break-word;
+  color: purple !important;
+}
+
+
+/* Sidebar Search*/
+
+.wp-block-search__button.wp-element-button {
+  background: var(--main);
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Search input */
+#wp-block-search__input-1,
+#wp-block-search__input-3 {
+  color: purple !important;
+  border-radius: 10px;
+  border: 2px solid purple;
+}
+
+
+/* Header Search bar after click */
+
+.search-field {
+  background: var(--main);
+  color: white !important;
+
+}
+
+.search-field ::placeholder {
+  color: white !important;
+}
+
+button {
+  background: var(--main);
+  color: white !important;
+}
+
+/* Recent post with thumbnail text colors*/
+
+.rpwwt-post-title {
+  color: purple;
+}
+
+
+/* Main Homepage Headings */
+
+.blog .entry-title,
+.blog .entry-title a,
+.archive .entry-title,
+.archive .entry-title a,
+.search .entry-title,
+.search .entry-title a {
+  color: purple;
+}
+
+
+
+
+
+
+
+/*Media Querry*/
 
 @media (max-width: 544px) {
 
