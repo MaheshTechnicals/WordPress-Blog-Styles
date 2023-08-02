@@ -253,8 +253,7 @@ nav-links a:hover {
 }
 
 /* Search input */
-#wp-block-search__input-1,
-#wp-block-search__input-3 {
+.wp-block-search__input {
   color: purple !important;
   border-radius: 10px;
   border: 2px solid purple;
