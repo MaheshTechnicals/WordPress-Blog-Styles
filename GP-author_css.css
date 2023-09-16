@@ -1,0 +1,80 @@
+.MaheshTechnicals-author-box {
+  padding: 3%;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  font-size: 0.9em;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: rgb(23 43 99 / 30%) 0 2px 10px;
+  border-radius: 25px;
+}
+
+.MaheshTechnicals-author-box .insights-avatar {
+  width: 250px;
+  height: auto;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.MaheshTechnicals-author-box .insights-avatar img {
+  border-radius: 100%;
+}
+
+.author-title {
+  margin-bottom: 0.1em;
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.author-description {
+  line-height: 1.6em;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.author-links a {
+  margin-top: 1rem;
+  font-size: 14px;
+  line-height: 2em;
+  font-weight: bold;
+  color: white;
+  float: left;
+  text-decoration: none;
+  padding: 10px;
+  background: purple;
+  border-radius: 5px;
+
+}
+
+@media (max-width: 768px) {
+  .MaheshTechnicals-author-box {
+    padding: 20px;
+    padding-bottom: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .MaheshTechnicals-author-box .insights-avatar {
+    margin-right: 0;
+    width: 100%;
+    margin-top: -60px;
+  }
+
+  .MaheshTechnicals-author-box .insights-avatar img {
+    max-width: 100px;
+  }
+
+  .author-links a {
+    float: none;
+    align-self: center;
+
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="GP-author_css.css">
+  <title></title>
+</head>
+
+<body>
+
+  <div class="MaheshTechnicals-author-box">
+    <div class="insights-avatar"> <?php echo get_avatar( get_the_author_meta( 'ID' ), 250 ); ?> </div>
+    <div class="insights-author-info">
+      <div class="author-title" itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name"><?php printf( get_the_author_meta( 'display_name') );?></span> </div>
+      <div class="author-summary">
+        <p class="author-description"><?php echo wp_kses( get_the_author_meta( 'description' ), null ); ?></p>
+      </div>
+      <div class="author-links"> <a href="https://MaheshTechnicals.com/about-us/" title="Read more about this author">Read More</a> </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
