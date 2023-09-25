@@ -1,0 +1,19 @@
+/* Related Post CSS */
+.wpsp-related-title {
+  margin-top: 40px;
+  padding: 10px;
+  background: purple;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.wp-show-posts-image img {
+  border-radius: 10px;
+  box-shadow: rgba(23, 43, 99, .2) 0 5px 25px !important;
+}
+
+.wp-show-posts p {
+  text-align: center;
+  font-weight: bold;
+}
