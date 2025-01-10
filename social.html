@@ -1,38 +1,72 @@
-<!DOCTYPE html>
-<html>
+<style>
+  #social-logo {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 10px;
+  }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-  <link rel="stylesheet" href="social.css">
-  <title></title>
-</head>
+  #social-links-mt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-<body>
+  #social-links-mt a {
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: left;
+    color: white;
+    width: 90%;
+    margin: 5px 5px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
 
-  <div id="social-by-mt">
+  #social-links-mt a:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
 
-    <div id="social-links-mt">
-      <a href="#" class="yticon" target="_blank"><i class="fa-brands fa-youtube"></i> Youtube</a>
-      <a href="#" class="tgicon" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
-      <a href="#" class="fbicon" target="_blank"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
-      <a href="#" class="instaicon" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a>
-      <a href="#" class="twicon" target="_blank"><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+  .fbicon {
+    background-image: linear-gradient(135deg, #7d8cfd 0, #486ee5 50%, #0052cd 100%);
+  }
 
-    </div>
+  .yticon {
+    background-image: radial-gradient(circle at 100% 0%, #ffa40a 0, #ff9423 10%, #ff8231 20%, #ff6f3b 30%, #ff5b42 40%, #f94646 50%, #e53248 60%, #d11e4b 70%, #c0074d 80%, #b00050 90%, #a20053 100%);
+  }
 
+  .tgicon {
+    background-image: radial-gradient(circle at 87.5% 12.5%, #9ca8ff 0, #486ee5 50%, #003787 100%);
+  }
+
+  .instaicon {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  }
+
+  @media (max-width: 600px) {
+    #social-links-mt {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    #social-links-mt a {
+      width: auto;
+      flex: 1 1 calc(50% - 10px);
+      text-align: center;
+    }
+  }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-BENXZfwEPxgR0Z1dyRtbmgTUl7CGKCP9+miNhHNWZwT08eDfx/IjqvUtstPVS3wN5wp7QlOUPut+Q65iLtbx3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<section id="social-by-mt">
+  <div id="social-links-mt">
+    <a href="#" class="yticon" target="_blank" aria-label="Visit YouTube"><i class="fa-brands fa-youtube"></i> YouTube</a>
+    <a href="#" class="tgicon" target="_blank" aria-label="Visit Telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
+    <a href="#" class="fbicon" target="_blank" aria-label="Visit Facebook"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+    <a href="#" class="instaicon" target="_blank" aria-label="Visit Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
   </div>
+</section>
 
-
-
-
-
-
-
-
-
-  <script src="main.js"></script>
-</body>
-
-</html>
